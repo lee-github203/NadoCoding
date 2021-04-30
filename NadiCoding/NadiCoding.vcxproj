@@ -24,6 +24,7 @@
     <ProjectGuid>{a516dc61-cdee-4762-997d-ae4481cda4dc}</ProjectGuid>
     <RootNamespace>NadiCoding</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>NadoCoding</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,7 +140,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="condition.c" />
+    <ClCompile Include="function.c" />
     <ClCompile Include="loop.c" />
+    <ClCompile Include="random.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
